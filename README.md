@@ -1,7 +1,7 @@
 # MR_Turntable
 This is a design and code to power a Walthers 90 foot HO model railroad turntable.  
 
-The turntable is powered by a 5V 1.8 degree unipolar stepper motor having a 1/2 inch rubber wheel riding against a 12 inch wooden wheel under the turntable.. This wooden wheel is attached to the pivot point of the bridge using a 1/4 inch OD hollow tube (the "bridge tube").  Position is controlled by a 2000 pulse per revolution XYZ rotary encoder attached to the bottom of the bridge tube.  The positions of the tracks are referenced to the encoder's Z index.  Using software, the encoder can be configured to identify 8,000 positions per revolution.
+The turntable is powered by a 5V 1.8 degree unipolar stepper motor having a 1/2 inch rubber wheel riding against a 12 inch wooden wheel under the turntable.. This wooden wheel is attached to the pivot point of the bridge using a 1/4 inch OD hollow tube (the "bridge tube").  Position is controlled by a 2000 pulse per revolution XYZ rotary encoder attached to the bottom of the bridge tube.  The positions of the tracks are referenced to the encoder's Z index.  Using software, the encoder can be configured to identify 8,000 positions per revolution.  Similar steppers and encoders can be purchased on Amazon.
 
 The bridge tube is attached to the center of the bridge with a hex key collar that has been epoxied inside the bridge.  There is a hole in the side of the bridge to tighten the bridge on the bridge tube.  The wooden wheel is attached to the bridge tube using hex key collars glued to each side of the wheel.  If I were doing this again, I would use two hex key collars with flanges and bolts instead of glued collars.    
 
