@@ -1,5 +1,6 @@
+
 # MR_Turntable
-This is a design and code to power a Walthers 90 foot HO model railroad turntable.  
+This is a design and code to power a Walthers 90 foot HO model railroad turntable.  See photos and video below and in the code file above.
 
 The turntable is powered by a 5V 1.8 degree unipolar stepper motor having a 1/2 inch rubber wheel riding against a 12 inch wooden wheel under the turntable. This wooden wheel is attached to the pivot point of the bridge using a 1/4 inch OD hollow tube (the "bridge tube").  Position is controlled by a 2000 pulse per revolution ABZ rotary encoder attached to the bottom of the bridge tube.  The positions of the tracks are referenced to the encoder's Z index.  Using software, the encoder can be configured to identify 8,000 positions per revolution.  Similar steppers and encoders can be purchased on Amazon.
 
@@ -12,4 +13,10 @@ The current set up uses an Arduino UNO, an UNO shield proto board for the connec
 The main innovation here is the 12 inch drive wheel which allows for very precise control of turntable position with no backlash.  The 1/2 inch rubber wheel is just a piece of rubber tubing (in the current case, heavy electrical wire cover) over the 1/4 inch stepper motor shaft.  The turntable makes a rather nice low frequency rumbling noise as it rotates.  The bridge position inside the turntable pit can be adjusted with the bridge hex key collar and by moving the position of the encoder relative to the turntable center.  The encoder cross support has enlarged holes at its ends to permit this fine adjustment.  I found that pushing the encoder up a bit while tightening the bridge down helps hold the bridge on the track in the turntable pit.
 
 The turntable buttons include up/down for index positions up/down and left/right for fine tune position steps left/right should that be needed.  The display shows current position and goto position.   It takes about 30 seconds for a 180 degree bridge rotation.
+
+<img width="3139" height="2832" alt="IMG_4762" src="https://github.com/user-attachments/assets/62d1ac4a-7c50-4008-be0d-c016721a9712" />
+
+
+
+<img width="4032" height="3024" alt="IMG_4765" src="https://github.com/user-attachments/assets/9174efb1-4038-4df7-bbbb-4cb37458d8d3" />
 
